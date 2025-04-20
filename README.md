@@ -1,7 +1,7 @@
 # Pomodoro Timer
 
 A responsive Pomodoro Timer web application with an engaging UI that helps you manage your time using the Pomodoro Technique.
-![Digital Flip Clock Demo](screenshot.png)
+![Pomodoro Timer Demo](screenshot.png)
 
 ## Live Demo
 
