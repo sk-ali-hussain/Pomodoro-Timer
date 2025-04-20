@@ -5,7 +5,7 @@ A responsive Pomodoro Timer web application with an engaging UI that helps you m
 
 ## Live Demo
 
-You can view a live demo of the clock here: [Digital Flip Clock Demo](https://sk-ali-hussain.github.io/Flip-Clock/)
+You can view a live demo of the clock here: [Pomodoro Timer Demo](https://sk-ali-hussain.github.io/Pomodoro-Timer/)
 
 
 ## Features
