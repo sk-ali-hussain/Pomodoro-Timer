@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3388/3388730.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        
+        <div class="timer-container">
+            <div class="timer">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <div class="progress-ring">
+                <svg height="300" width="300">
+                    <circle class="progress-ring__circle-bg" cx="150" cy="150" r="120" />
+                    <circle class="progress-ring__circle" cx="150" cy="150" r="120" />
+                </svg>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause" disabled>Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+        
+        <div class="modes">
+            <button class="mode-btn active" data-time="25">Pomodoro</button>
+            <button class="mode-btn" data-time="5">Short Break</button>
+            <button class="mode-btn" data-time="15">Long Break</button>
+        </div>
+        
+        <div class="info-card">
+            <h2>The Pomodoro Technique</h2>
+            <ul>
+                <li><strong>Work:</strong> Focus for 25 minutes</li>
+                <li><strong>Short Break:</strong> Take a 5-minute break</li>
+                <li><strong>Long Break:</strong> After 4 Pomodoros, take a 15-minute break</li>
+                <li>Stay focused during work intervals</li>
+                <li>Completely disconnect during breaks</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Pomodoro Timer - <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
